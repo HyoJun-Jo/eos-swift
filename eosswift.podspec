@@ -14,6 +14,5 @@ Pod::Spec.new do |spec|
   spec.public_header_files    = 'eosswift/*.h'
   spec.requires_arc           = true
   spec.dependency               'RxSwift','~> 4.0'
-  spec.dependency               'RxCocoa', '~> 4.0'
   spec.dependency               'BigInt', '~> 5.2.0'
 end
